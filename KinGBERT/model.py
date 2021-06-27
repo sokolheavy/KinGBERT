@@ -4,7 +4,7 @@ import torch
 from sklearn.metrics.pairwise import cosine_similarity
 from transformers import AutoModel, AutoTokenizer
 from sklearn.feature_extraction.text import CountVectorizer
-from utils import extractor_topic_rank, extractor_topical_page_rank, extractor_single_rank, extractor_multipartite_rank
+from KinGBERT.utils import extractor_topic_rank, extractor_topical_page_rank, extractor_single_rank, extractor_multipartite_rank
 
 
 
