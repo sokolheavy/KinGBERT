@@ -27,9 +27,6 @@ text = """What is data science?
 ```
 Just extract 5 keywords from the text.
 
-    extractor = KinGBERTExtractor()
-    keywords = extractor.generate(doc)
-
 ```python
 >>> from KinGBERT import KinGBERTExtractor
 >>> extractor = KinGBERTExtractor(top_k=5)
